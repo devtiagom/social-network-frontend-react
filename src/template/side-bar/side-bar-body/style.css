@@ -1,0 +1,7 @@
+.side-bar-body {
+    grid-area: side-bar-body;
+
+    background-color: var(--side-bar-body-bg-color);
+
+    overflow: hidden;
+}

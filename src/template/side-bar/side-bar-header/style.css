@@ -1,0 +1,10 @@
+.side-bar-header {
+    grid-area: side-bar-header;
+
+    background-color: var(--side-bar-header-bg-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
