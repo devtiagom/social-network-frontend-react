@@ -1,0 +1,16 @@
+.page-header {
+    background-color: white;
+    padding: 5px 20px;
+    border-bottom: 1px solid #CDCDCD;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.page-header .page-title {
+    color: #727272;
+    font-size: 16px;
+    margin-left: 5px;
+}
