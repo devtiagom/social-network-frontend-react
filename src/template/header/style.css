@@ -6,10 +6,10 @@
     background-color: var(--header-bg-color);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .15);
 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
 
     transition: all var(--show-side-bar-animation-time);
 }
@@ -22,4 +22,56 @@
 .header-lg {
     left: var(--side-bar-sm-width);
     width: calc(100% - var(--side-bar-sm-width));
+}
+
+.header-menu {
+    height: 100%;
+    margin: 0px 10px 0px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu .header-menu-group {
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-menu .header-menu-group .header-menu-item {
+    height: 100%;
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu .header-menu-group .header-menu-item .header-menu-link {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color .3s;
+}
+
+.header-menu .header-menu-group .header-menu-item .header-menu-link:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.header-menu .header-menu-group .header-menu-item .header-menu-link .header-menu-icon {
+    width: 22px;
+    height: 22px;
+    color: white;
 }
