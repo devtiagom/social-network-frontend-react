@@ -1,16 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './style.css';
+import Show from '../../common/Show';
 
 export default props => {
     const Icon = props.icon;
 
     return (
         <li className="menu-item">
-            <a href="#" className="menu-item-link">
+            <Link className="menu-item-link" to={props.path}>
                 <Icon className="menu-item-icon"/>
-                <span className="menu-item-text text-on">{props.text}</span>
-            </a>
+                <Show if={true}>
+                    <span className="menu-item-text text-on">{props.text}</span>
+                </Show>
+            </Link>
         </li>
     );
 }

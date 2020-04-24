@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './App.css';
-import Home from '../pages/home';
-import Profile from '../pages/profile';
+import Routes from './routes';
 
 function App() {
   return (
-    <Home />
-    // <Profile />
+    <div className="App">
+      <Routes />
+    </div>
   );
 }
 
