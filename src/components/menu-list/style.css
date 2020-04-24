@@ -1,0 +1,8 @@
+.menu-nav .menu-list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
