@@ -8,10 +8,10 @@ import HeaderMenuItem from '../../components/top-bar-menu/header-menu-item';
 export default props => (
     <header className="header header-sm">
         <HeaderMenuList>
-            <HeaderMenuItem icon={FaHome} />
-            <HeaderMenuItem icon={FaUsers} />
-            <HeaderMenuItem icon={FaEnvelope} />
-            <HeaderMenuItem icon={FaUser} />
+            <HeaderMenuItem type="icon-link" icon={FaHome} />
+            <HeaderMenuItem type="icon-link" icon={FaUsers} />
+            <HeaderMenuItem type="icon-link" icon={FaEnvelope} />
+            <HeaderMenuItem type="icon-link" icon={FaUser} />
         </HeaderMenuList>
     </header>
 );
