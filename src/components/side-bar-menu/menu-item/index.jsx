@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './style.css';
-import Show from '../../common/Show';
+import Show from '../../../common/Show';
 
 export default props => {
     const Icon = props.icon;
