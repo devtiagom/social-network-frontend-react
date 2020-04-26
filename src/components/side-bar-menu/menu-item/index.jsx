@@ -10,7 +10,7 @@ export default props => {
     return (
         <li className="menu-item">
             <Link className="menu-item-link" to={props.path}>
-                <Icon className="menu-item-icon"/>
+                <Icon className="menu-item-icon" />
                 <Show if={true}>
                     <span className="menu-item-text text-on">{props.text}</span>
                 </Show>

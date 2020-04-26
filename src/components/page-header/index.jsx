@@ -7,7 +7,8 @@ export default props => {
 
     return (
         <div className="page-header">
-            <Icon size={16} color="#727272" />
+            {/* <Icon size={16} color="#727272" /> */}
+            <Icon className="page-icon" />
             <span className="page-title">{props.title}</span>
         </div>
     );

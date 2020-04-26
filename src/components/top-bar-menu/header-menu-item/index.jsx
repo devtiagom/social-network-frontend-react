@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 import SearchItem from '../../../components/search-item';
@@ -7,9 +8,9 @@ export default props => {
     const Icon = props.icon;
 
     const iconLink = () => (
-        <a href="#" className="header-menu-link">
+        <Link to={props.path} className="header-menu-link">
             <Icon className="header-menu-icon" />
-        </a>
+        </Link>
     );
 
     const buttonLink = () => (

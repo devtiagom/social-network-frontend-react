@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaUser } from 'react-icons/fa'
+import { FaHome, FaUser, FaUsers, FaEnvelope } from 'react-icons/fa'
 
 import './style.css';
 import MenuList from '../../../components/side-bar-menu/menu-list';
@@ -18,6 +18,18 @@ export default props => (
                 icon={FaUser}
                 text="Seu Perfil"
                 path="/profile"
+                menuMode={null}
+            />
+            <Menuitem
+                icon={FaUsers}
+                text="Sua Rede"
+                path="/network"
+                menuMode={null}
+            />
+            <Menuitem
+                icon={FaEnvelope}
+                text="Suas Mensagens"
+                path="/messages"
                 menuMode={null}
             />
         </MenuList>

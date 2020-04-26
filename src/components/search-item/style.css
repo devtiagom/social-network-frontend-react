@@ -22,7 +22,7 @@
 }
 
 .search-box .search-input {
-    width: 100px;
+    width: 120px;
     border: none;
     background-color: transparent;
     color: white;
@@ -32,7 +32,7 @@
 
 
 .search-box .search-input:focus {
-    width: 150px;
+    width: 170px;
 }
 
 .search-box .search-input:-moz-placeholder {
