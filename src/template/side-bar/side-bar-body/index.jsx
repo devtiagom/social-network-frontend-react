@@ -12,25 +12,25 @@ export default props => (
                 icon={FaHome}
                 text="Página Inicial"
                 path="/"
-                menuMode={null}
+                sideBarMode={props.sideBarMode}
             />
             <Menuitem
                 icon={FaUser}
                 text="Seu Perfil"
                 path="/profile"
-                menuMode={null}
+                sideBarMode={props.sideBarMode}
             />
             <Menuitem
                 icon={FaUsers}
                 text="Sua Rede"
                 path="/network"
-                menuMode={null}
+                sideBarMode={props.sideBarMode}
             />
             <Menuitem
                 icon={FaEnvelope}
                 text="Suas Mensagens"
                 path="/messages"
-                menuMode={null}
+                sideBarMode={props.sideBarMode}
             />
         </MenuList>
     </section>

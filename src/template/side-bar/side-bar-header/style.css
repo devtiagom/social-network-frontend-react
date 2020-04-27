@@ -2,6 +2,7 @@
     grid-area: side-bar-header;
 
     background-color: var(--side-bar-header-bg-color);
+    overflow: hidden;
 
     display: flex;
     flex-direction: row;
@@ -29,4 +30,13 @@
 
 .side-bar-header .side-bar-header-group-items .side-bar-header-item .side-bar-header-img {
     width: 150px;
+}
+
+.item-on {
+    opacity: 1;
+    transition: all 0s .3s;
+}
+
+.item-off {
+    opacity: 0;
 }
