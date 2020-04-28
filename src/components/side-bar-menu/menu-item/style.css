@@ -8,7 +8,6 @@
     padding: 10px 15px;
     display: inline-block;
     width: 100%;
-    border-left: 3px solid transparent;
 
     text-decoration: none;
 
@@ -16,6 +15,10 @@
 }
 
 .menu-item .menu-item-link:hover {
+    background-color: var(--side-bar-body-link-bg-color);
+}
+
+.active {
     background-color: var(--side-bar-body-link-bg-color);
     border-left: 3px solid var(--side-bar-header-bg-color);
 }
