@@ -10,7 +10,7 @@ export default props => {
     return (
         <li className="menu-item">
             <Link className="menu-item-link" to={props.path}>
-                <span><Icon className="menu-item-icon" /></span>
+                <span className="menu-item-icon"><Icon /></span>
                 <span className={`menu-item-text ${props.sideBarMode === sideBarModes.lg ? 'text-on' : 'text-off'}`}>
                     {props.text}
                 </span>

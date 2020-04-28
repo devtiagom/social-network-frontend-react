@@ -2,7 +2,7 @@
     grid-area: side-bar-body;
 
     background-color: var(--side-bar-body-bg-color);
-    padding-top: 20px;
+    padding-top: 24px;
 
     overflow: hidden;
 }
