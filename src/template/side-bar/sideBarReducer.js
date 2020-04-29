@@ -8,7 +8,7 @@ export default (state = INITIAL_STATE, action) => {
             return {
                 ...state,
                 sideBarMode: action.payload
-            } 
+            }
         default:
             return state;
     }

@@ -11,7 +11,7 @@
 
     text-decoration: none;
 
-    transition: all .3s;
+    transition: background-color .3s;
 }
 
 .menu-item .menu-item-link:hover {

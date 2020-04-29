@@ -10,8 +10,8 @@ export default props => (
             <HeaderMenuItem
                 type="button-link"
                 icon={FaBars}
-                sideBarMode={props.sideBarMode}
-                toggleSideBarMode={props.toggleSideBarMode}
+                action={props.toggleSideBarMode}
+                actionPar={props.sideBarMode}
             />
         </ul>
 

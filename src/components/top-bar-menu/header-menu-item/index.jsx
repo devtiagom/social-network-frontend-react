@@ -16,7 +16,7 @@ export default props => {
     const buttonLink = () => (
         <button
             className="header-menu-button"
-            onClick={() => props.toggleSideBarMode(props.sideBarMode)}
+            onClick={() => props.action(props.actionPar)}
         >
             <Icon className="header-menu-icon" />
         </button>
