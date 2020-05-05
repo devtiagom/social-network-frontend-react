@@ -22,14 +22,13 @@
 }
 
 .side-bar-header .side-bar-header-group-items .side-bar-header-item .side-bar-header-icon {
-    width: 22px;
-    height: 22px;
-    margin: 0px 10px;
-    color: white;
+    width: 42px;
+    margin-left: 4px;
+    vertical-align: middle;
 }
 
-.side-bar-header .side-bar-header-group-items .side-bar-header-item .side-bar-header-img {
-    width: 150px;
+.side-bar-header .side-bar-header-group-items .side-bar-header-item .side-bar-header-logo {
+    width: 157px;
 }
 
 .item-on {
