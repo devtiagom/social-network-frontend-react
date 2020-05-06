@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './style.css';
 import SearchItem from '../../../components/search-item';
+import Show from '../../../common/Show';
 
 export default props => {
     const Icon = props.icon;
@@ -10,6 +11,9 @@ export default props => {
     const iconLink = () => (
         <Link to={props.path} className="header-menu-link">
             <Icon className="header-menu-icon" />
+            <Show if={props.count != null && props.count > 0}>
+        <span className="badge badge-danger badge-icon">{props.count}</span>
+            </Show>
         </Link>
     );
 

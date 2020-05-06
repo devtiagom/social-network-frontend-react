@@ -18,8 +18,8 @@ const Header = props => (
 	<header className={`header ${props.sideBarMode === sideBarModes.lg ? 'header-sm' : 'header-lg'}`}>
 		<HeaderMenuList sideBarMode={props.sideBarMode} toggleSideBarMode={props.toggleSideBarMode}>
 			<HeaderMenuItem type="icon-link" icon={FaHome} path="/" />
-			<HeaderMenuItem type="icon-link" icon={FaUsers} path="/network" />
-			<HeaderMenuItem type="icon-link" icon={FaEnvelope} path="/messages" />
+			<HeaderMenuItem type="icon-link" icon={FaUsers} path="/network" count="1" />
+			<HeaderMenuItem type="icon-link" icon={FaEnvelope} path="/messages" count="5" />
 			<HeaderMenuItem type="button-link" icon={FaUser} action={props.toggleUserDropDownMenu} actionPar={props.showUserDropDownMenu} />
 		</HeaderMenuList>
 		<Show if={props.showUserDropDownMenu}>

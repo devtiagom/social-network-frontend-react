@@ -8,6 +8,8 @@
 }
 
 .header-menu-item .header-menu-link {
+    position: relative;
+
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -32,6 +34,7 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    outline: none;
 
     display: flex;
     justify-content: center;
@@ -48,4 +51,12 @@
     width: 22px;
     height: 22px;
     color: white;
+    vertical-align: middle;
+}
+
+.badge-icon {
+    font-size: .6rem;
+    position: absolute;
+    top: 10%;
+    right: -5%;
 }

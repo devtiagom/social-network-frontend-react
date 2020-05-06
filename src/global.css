@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700$display=swap");
 
 :root {
-  --header-bg-color: #1E89DD;
-  --side-bar-header-bg-color: #3C96DF;
+  /* --header-bg-color: #1E89DD; */
+  --header-bg-color: #0069D9;
+  /* --side-bar-header-bg-color: #3C96DF; */
+  --side-bar-header-bg-color: #007BFF;
   --side-bar-body-bg-color: #1E1E1E;
   --side-bar-body-link-bg-color: #323232;
   --side-bar-body-link-txt-color: #B6B6B6;
