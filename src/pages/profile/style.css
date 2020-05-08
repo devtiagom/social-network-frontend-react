@@ -4,5 +4,11 @@
 }
 
 .profile .profile-content {
-    padding: 5px;
+    display: flex;
+    padding: 10px;
+}
+
+.profile .profile-content .user-info {
+    display: flex;
+    flex-direction: column;
 }

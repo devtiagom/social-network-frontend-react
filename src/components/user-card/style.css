@@ -1,10 +1,10 @@
 .user-card {
+    position: unset;
     width: 325px;
-
+    margin: 5px;
     border: 1px solid var(--side-bar-body-link-txt-color);
     border-top: 3px solid var(--header-bg-color);
     border-radius: 5px;
-
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .15);
 }
 

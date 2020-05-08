@@ -8,6 +8,8 @@ import { DynamicSideBarLayout } from '../../layouts';
 import { doNotShowUserDropDownMenu } from '../../template/header/headerActions';
 import PageHeader from '../../components/page-header';
 import UserCard from '../../components/user-card';
+import AboutMe from '../../components/about-me-card';
+import Post from '../../components/post';
 
 const Profile = props => {
     useEffect(() => {
@@ -19,7 +21,15 @@ const Profile = props => {
             <div className="profile">
                 <PageHeader icon={FaUser} title="Seu Perfil" />
                 <div className="profile-content">
-                    <UserCard />
+                    <div className="user-info">
+                        <UserCard />
+                        <AboutMe />
+                    </div>
+                    <div className="user-activities">
+                        <Post />
+                        <Post />
+                        {/* <Post /> */}
+                    </div>
                 </div>
             </div>
         </DynamicSideBarLayout>
