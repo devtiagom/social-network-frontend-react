@@ -14,13 +14,13 @@ export default props => (
             </div>
         </div>
         <div className="card-body">
-            <hr/>
+            <hr className="user-card-hr"/>
             <p className="card-text user-card-text"><span className="text-muted">Seguidores:</span> 123</p>
-            <hr/>
+            <hr className="user-card-hr" />
             <p className="card-text user-card-text"><span className="text-muted">Seguindo:</span> 234</p>
-            <hr/>
+            <hr className="user-card-hr" />
             <p className="card-text user-card-text"><span className="text-muted">Amigos:</span> 345</p>
-            <hr/>
+            <hr className="user-card-hr" />
         </div>
         <Show if={true}>
             <div className="card-footer bg-white">

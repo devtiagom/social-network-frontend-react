@@ -1,5 +1,5 @@
 .user-card {
-    width: 300px;
+    width: 325px;
 
     border: 1px solid var(--side-bar-body-link-txt-color);
     border-top: 3px solid var(--header-bg-color);
@@ -21,7 +21,6 @@
 .user-card .user-card-header .user-card-avatar {
     width: 80px;
     margin-left: 10px;
-    /* border: 2px solid rgb(100, 100, 100); */
     border: 2px solid var(--side-bar-body-link-txt-color);
     border-radius: 50%;
 }
@@ -41,6 +40,8 @@
     font-weight: 700;
 }
 
-.user-card hr {
+.user-card-hr {
     margin: 7px 0px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(120, 120, 120, 0), rgba(120, 120, 120, .5), rgba(120, 120, 120, 0));
 }
