@@ -5,10 +5,15 @@
 
 .profile .profile-content {
     display: flex;
+    flex-direction: column;
     padding: 10px;
 }
 
 .profile .profile-content .user-info {
+    display: flex;
+}
+
+.profile .profile-content .user-activities {
     display: flex;
     flex-direction: column;
 }

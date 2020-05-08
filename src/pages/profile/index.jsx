@@ -28,7 +28,7 @@ const Profile = props => {
                     <div className="user-activities">
                         <Post />
                         <Post />
-                        {/* <Post /> */}
+                        <Post />
                     </div>
                 </div>
             </div>

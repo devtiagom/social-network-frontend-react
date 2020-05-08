@@ -22,7 +22,7 @@ export default props => (
             <p className="card-text user-card-text"><span className="text-muted">Amigos:</span> 345</p>
             <hr className="user-card-hr" />
         </div>
-        <Show if={true}>
+        <Show if={false}>
             <div className="card-footer bg-white">
                 <button className="btn btn-block btn-primary">
                     <span className="user-card-button-text">Seguir</span>

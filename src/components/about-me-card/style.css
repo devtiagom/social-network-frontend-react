@@ -1,7 +1,7 @@
 .about-me {
     position: unset;
     margin: 5px;
-    width: 325px;
+    max-width: calc(100% - 350px);
     border: 1px solid var(--side-bar-body-link-txt-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .15);
 }
