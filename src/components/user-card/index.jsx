@@ -9,7 +9,7 @@ export default props => (
         <div className="user-card-header">
             <img className="user-card-avatar" src="assets/default-male-avatar.png" alt="avatar"/>
             <div className="user-card-header-side">
-                <h5 className="card-title text-white">Fulano de Tal</h5>
+                <h5 className="card-title text-white">{props.user.name}</h5>
                 <h6 className="card-subtitle">Porto Alegre</h6>
             </div>
         </div>

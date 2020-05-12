@@ -8,16 +8,16 @@ export default props => (
             {/* <h5 className="card-title">Sobre mim</h5> */}
             Sobre mim
         </div>
-        <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Informações Pessoais</a>
+        <div className="card-header">
+            <ul className="nav nav-tabs card-header-tabs">
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Informações Pessoais</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Trabalho</a>
+                <li className="nav-item">
+                    <a className="nav-link active" href="#">Trabalho</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Educação</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#">Educação</a>
                 </li>
             </ul>
         </div>
