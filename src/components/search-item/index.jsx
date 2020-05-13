@@ -12,7 +12,7 @@ export default props => (
             id="search"
             className="search-input"
             type="text"
-            placeholder="Procurar..."
+            placeholder="Buscar..."
             autoComplete="off"
         />
     </div>

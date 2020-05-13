@@ -13,7 +13,7 @@ import UserCard from '../../components/user-card';
 import AboutMe from '../../components/about-me-card';
 import Post from '../../components/post';
 
-const AUTHENTICATED_USER_ID = 3;    // Provisório
+const AUTHENTICATED_USER_ID = 1;    // Provisório
 
 const Profile = props => {
     useEffect(() => {

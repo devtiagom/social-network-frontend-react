@@ -1,7 +1,45 @@
 .post {
     position: unset;
-    margin: 5px;
-    margin-right: 10px;
+    margin: 10px 10px 10px 5px;
     border: 1px solid var(--side-bar-body-link-txt-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, .15);
+}
+
+.post .post-card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post .post-card-footer .post-card-footer-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 90px;
+}
+
+.post .post-card-footer .post-card-footer-buttons > button {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    outline: none;
+}
+
+.post .post-card-footer .post-card-footer-buttons > button:hover {
+    background-color: rgba(119, 119, 119, .15);
+}
+
+.post .post-card-footer .post-card-footer-buttons .badge-icon-post {
+    font-size: .6rem;
+    position: absolute;
+    top: 7%;
+    right: -2%;
+    border-radius: 50%;
+
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

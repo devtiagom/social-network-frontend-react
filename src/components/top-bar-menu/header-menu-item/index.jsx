@@ -12,7 +12,7 @@ export default props => {
         <Link to={props.path} className="header-menu-link">
             <Icon className="header-menu-icon" />
             <Show if={props.count != null && props.count > 0}>
-        <span className="badge badge-danger badge-icon">{props.count}</span>
+                <span className="badge badge-danger badge-icon">{props.count}</span>
             </Show>
         </Link>
     );
